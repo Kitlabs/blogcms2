@@ -35,14 +35,6 @@ This blog project uses some open source projects and free projects to work prope
 
 And of course blog project itself is open source with a public repository on GitHub.
 
-# Live Demo
- ` http://krescentglobal.com/laravel-blog/public/ `
-
-Admin ID: ` mubbi@test.com `
-
-Admin Pass: ` mubbi123 `
-
-
 # Minimum Requirements
 * PHP >= 7.1.3
 * MySQL >= 5.0.12
@@ -55,7 +47,7 @@ Admin Pass: ` mubbi123 `
 * JSON PHP Extension
 
 # Installation Guide
-1. `git clone https://github.com/mubbi/laravel-blog-5.6.5.git`
+1. `git clone https://github.com/Kitlabs/blogcms2`
 2. `cd laravel-blog-5.6.5`
 3. `composer install`
 4. `rename .env.example to .env`
@@ -76,14 +68,4 @@ NOTE: Automatic user registration activation emails and subscriber verification 
 3. From the above link learn how to make a cron job for ` schedule:run `
 4. Once this cron job is set for every minute then the weekly emails will be sent automatically
 
-# Screenshots
-### Home Page
 
-![Home Page](https://preview.ibb.co/ku0G7n/screencapture_localhost_81_laravel_blog_laravel_blog_5_6_5_public_1520539108112.png)
-
-### Admin Area
-
-![Admin Area](https://preview.ibb.co/cSRQYS/screencapture_localhost_81_laravel_blog_laravel_blog_5_6_5_public_admin_blogs_1520532879922.png)
-
-# License
-GNU GPLv3
